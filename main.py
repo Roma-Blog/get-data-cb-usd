@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import matplotlib
 import matplotlib.dates as mdates
 
-matplotlib.use("TkAgg")
+matplotlib.use("TkAgg")  ## <-  будет использовать tkinter для отрисовки графиков
 from datetime import datetime
 
 import matplotlib.pyplot as plt
